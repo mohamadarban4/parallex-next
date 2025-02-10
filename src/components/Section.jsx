@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Background from '../../public/images/1.jpg';
+import Background from '../../public/images/13.jpg';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
 
@@ -18,9 +18,10 @@ export default function Section() {
         style={{clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"}}
         >
         <div className='relative z-10 p-20 mix-blend-difference text-white w-full h-full flex flex-col justify-between'>
-            <p className='w-[50vw] text-[2vw] self-end uppercase mix-blend-difference'>Beauty and quality need the right time to be conceived and realised even in a world that is in too much of a hurry.</p>
-            <p className='text-[5vw] uppercase mix-blend-difference'>Background Parallax</p>
+            <p className='w-[50vw] text-[2vw] self-end uppercase mix-blend-difference'>Red Bull Racing, also known as Red Bull F1, is one of the most dominant teams in modern Formula 1. Founded in 2005 by the energy drink company Red Bull, the team has consistently been at the forefront of innovation and performance.</p>
+            <p className='text-[5vw] uppercase mix-blend-difference'>REDBULL RACING</p>
         </div>
+
         <div className='fixed top-[-10vh] left-0 h-[120vh] w-full'>
             <motion.div style={{y}} className='relative w-full h-full'>
             <Image src={Background} fill alt="image" style={{objectFit: "cover"}}/>
